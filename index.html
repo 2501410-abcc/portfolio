@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="UTF-8">
+            <title>Portfolio</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+
+        <body>
+
+            <!--ローディング-->  
+            <div id="loading">
+                <div id="loading_box">
+                    <div class="loading-one animation_loading">
+                        <p class="loading-txt">Loading</p>
+                    </div>
+                </div>
+            </div>
+
+        <!--ヘッダー-->
+            <header id="header">
+                <img src="img/my portfolio.png" alt="logo">
+
+                <div class="hamburger" id="js-hamburger">
+                    <span class="hamburger__line hamburger__line--1"></span>
+                    <span class="hamburger__line hamburger__line--2"></span>
+                    <span class="hamburger__line hamburger__line--3"></span>
+                </div>
+                <nav class="sp-nav">
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#work">Work</a></li>
+                    </ul>
+                </nav>
+                <div class="black-bg" id="js-black-bg"></div>
+            </header>
+
+        <!--メインビジュアル-->
+        <div id="mainvisual">
+            <img src="img/mainvisual2.png" alt="main visual">
+        </div>
+        
+        <!--自己紹介-->
+        <section id="about" class="about">
+            <h1 class="section-title">About Me</h1>
+            <img src="img/about.jpg" alt="">
+            <p>
+                <ul>
+                    <li>名前：下村芽衣</li>
+                    <li>趣味：裁縫</li>
+                    <li>長所：継続力</li>
+                </ul>
+                幼稚園教諭・保育士として2年間勤務し、
+                日々子どもたちと向き合う中で「ものづくり」の楽しさに改めて気づきました。
+                より専門的なスキルを身につけたいと考え、職業訓練を経て
+                現在は麻生情報ビジネス専門学校 情報ビジネス科にて
+                HTML・CSS・JavaScriptを中心に学習しています。
+                前職で培った継続力と責任感を強みとし、
+                一つひとつ丁寧に取り組む姿勢を大切にしています。
+                今後は、使いやすさとデザイン性を両立できる
+                Webエンジニアを目指して成長していきたいと考えています。
+            </p>
+        </section>
+
+        <div class="container">
+        <!-- スキル -->
+            <section id="skill">
+                <h1 class="section-title">Skill</h1>
+                <div class="content-box fade">
+                <div id="skill-content">
+                    <div class="skill-text">
+                    <h2>Html</h2>
+                    <p>
+                        丁寧な構造を意識し、
+                        誰が見ても分かりやすいコードを書くことを心がけています。
+                    </p>
+                    </div>
+                    
+                    <div class="skill-text">
+                    <h2>Css</h2>
+                    <p>
+                        デザインの雰囲気や余白のバランスを大切にし、
+                        見る人にとって心地よいレイアウトを意識しています。
+                    </p>
+                    </div>
+                    
+                    <div class="skill-text">
+                    <h2>Javascript</h2>
+                    <p>
+                        基本的なDOM操作やイベント処理を実装できます。
+                        ユーザーにとって自然で使いやすいUIを目指し、継続して学習中です。
+                    </p>
+                    </div>
+                </div>             
+            </section>
+
+        <!-- 自分の作品-->
+        <section id="work">
+            <h1 class="section-title">Work</h1>
+            <h3 id="section-title-sub">画像をクリックするとそのサイトに行くことができます<br>
+            ぜひご覧になってください！</h3>
+
+        <div class="content-box fade">
+            <div id="work-content">
+                <div class="work-text"> 
+                    <div class="content-img">
+                        <a href="演習ファイル24-2/24-2.html"><img src="img/ryouri.png" alt="webサイト"></a>
+                    </div>
+        
+                    <h2>学内課題（HTML・CSS）</h2>
+                        <p>
+                        HTML・CSSの基礎理解を目的に制作したWebサイトです。
+                        指示書の内容を正確に読み取り、デザインやレイアウトを忠実に再現しました。
+                        </p>
+
+                        <ul>
+                            <li>使用技術：HTML / CSS</li>
+                            <li>制作期間：1時間</li>
+                            <li>工夫した点：仕様通りに実装するため、不明点は自ら調べて理解しながら進めました。</li>
+                        </ul>
+                </div>
+
+                <div class="work-text"> 
+                    <div class="content-img">
+                        <a href="演習ファイル62-1/62-1-1.html"><img src="img/bouken2.png" alt="JavaScript制作"></a>
+                    </div>  
+                    <h2>学内課題（Javascript）</h2>
+                    <p>
+                        JavaScriptを用いて制作した作品です。
+                        基本的なDOM操作やローカルストレージを活用し、
+                        動きのあるWebページを実装しました。
+                    </p>
+
+                    <ul>
+                        <li>使用技術：HTML / CSS / JavaScript</li>
+                        <li>制作期間：1時間</li>
+                        <li>工夫した点：処理の流れを整理し、読みやすいコードを書くことを意識しました。
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="work-text"> 
+                    <div class="content-img">
+                        <a href="myprofile/home.html"><img src="img/profile.png" alt="プロフィールサイト"></a>
+                    </div>
+                    <h2>自主学習した自身のプロフィールサイト</h2>
+                    <p>
+                        自身をテーマに制作したWebサイトです。
+                        配色やフォント選びにこだわり、
+                        自分らしさが伝わるデザインを意識しました。
+                    </p>
+
+                    <ul>
+                        <li>使用技術：HTML / CSS / JavaScript</li>
+                        <li>制作期間：約2週間</li>
+                        <li>工夫した点：統一感のあるデザインとスムーズな動きを実装しました。</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="work-text"> 
+                    <div class="content-img">
+                        <a href="ToDoリスト/index.html"><img src="img/スクリーンショット 2026-02-16 102548.png" alt="ToDoリスト"></a>
+                    </div>
+                    <h2>ToDoリスト</h2>
+                    <p>
+                        JavaScriptを用いて制作したToDoリストアプリです。
+                        タスクの追加・削除機能を実装し、
+                        配列操作やイベント処理の理解を深めました。
+                    </p>
+
+                    <ul>
+                        <li>使用技術：HTML / CSS / JavaScript</li>
+                        <li>制作期間：約2週間</li>
+                        <li>工夫した点：直感的に操作できるUIを意識し、シンプルなデザインに仕上げました。</li>
+                    </ul>
+                </div>        
+            </div>
+            </div>
+        </section>
+
+        </div>
+
+        <button class="modoru"><a href="#mainvisual">⇑</a></button>
+
+        <!--フッター-->
+        <footer>
+        麻生情報ビジネス専門学校　
+        情報ビジネス科 プログラミング専攻 IT1A　
+        下村芽衣
+        </footer>
+
+        <!--script-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="java.js"></script>
+
+        </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+body{
+    background-color: #FFFfff;
+    color: #5c3a3a;
+    display: flex;
+    max-width: 100%;
+}
+
+#main{
+    background-color: #fdecec;
+    width: 100%;
+    border-radius: 25px; 
+}
+
+h1{
+    color: #ff8daa;
+    text-align: center;
+}
+
+#list{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 0px 10px #ffeaea;
+    border: dashed 2px #ffc3c3;
+    border-radius: 8px;
+}
+
+
+
+
+#main-list{
+text-align: center;
+margin-bottom: 20px;}
+
+#todo-input{
+    width: 250px;
+ height: 25px;
+ border: solid 2px #ff6b6b;
+ border-radius: 25px; 
+}
+#todo-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#add-button{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFFfff;
+  background-color:#ff6b6b;
+   border-radius: 25px;
+    border: solid 2px #ff6b6b;
+ 
+
+}
+
+#add-button:hover {
+background-color: #FFFfff;
+color: #ff6b6b;}
+
+#memo{
+width: 28%;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFfff;
+ border: solid 2px #ff6b6b;
+   border-radius: 25px;
+}
+
+h2{
+    color: #ff8daa;
+    text-align: center;
+}
+
